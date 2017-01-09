@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<contents>
+	<content>
+		<title>Discord</title>
+		<description>Mise en relation, discussions, débats entre militants, sympathisants et curieux sur la plate-forme gratuite et sans inscription de messagerie instantanée.</description>
+		<url>https://discord.gg/d45kUcY</url>
+		<img>other-discord.jpg</img>
+	</content>
+	<content>
+		<title>Reddit</title>
+		<description>forum de discussion sur le candidature de Jean-Luc Mélenchon à la présidentielle de 2017 avec le mouvement la France insoumise.</description>
+		<url>https://www.reddit.com/r/melenchon/</url>
+		<img>other-reddit.jpg</img>
+	</content>
+	<content>
+		<title>Soulépavé</title>
+		<description>Groupe de percussions, guitares, basse, chants et des textes "fouillés", qu'on prend le temps d'écouter. Fabriquant de musique insoumise.</description>
+		<url>https://soundcloud.com/tigaher</url>
+		<img>other-soulepave.jpg</img>
+	</content>
+</contents>
