@@ -17,8 +17,10 @@
             <a name="top"></a>
             <h1>YouTube insoumis</h1>
             <hr />
-            <!--Intègre la gestion du formulaire-->
-            <?php include('includes/contact-send.php'); ?>
+            <?php
+            // Integre la gestion du formulaire, désactivé en attente d'un captcha
+//            include('includes/contact-send.php');
+            ?>
             <ul class="menu">
                 <li class="home"><a href="/jlm2017/" title="Accueil">Accueil</a></li>
                 <li class="websites"><a href="/jlm2017/sites-internet/" title="Sites Internet">Sites Internet</a></li>
@@ -69,8 +71,8 @@
             </div>
             <hr />
             <?php
-            // Integre le formulaire de contact
-            include('includes/contact-form.php');
+            // Integre le formulaire de contact, désactivé en attente d'un captcha
+//            include('includes/contact-form.php');
             ?>
         </div>
     </body>
