@@ -19,7 +19,7 @@
             <hr />
             <?php
             // Integre la gestion du formulaire, désactivé en attente d'un captcha
-//            include('includes/contact-send.php');
+//            include('contact/contact-send.php');
             ?>
             <ul class="menu">
                 <li class="home active"><a href="#top" title="Accueil">Accueil</a></li>
@@ -54,11 +54,11 @@
                             // Pour chaque contenu
                             for ($index = 0; $index < $maximum; $index++) {
                                 ?>
-                                <li<?php if ($index % 3 == 0) { ?> class="break"<?php } ?>>
-                                    <a href="<?php echo $file->content[$index]->url; ?>" title="<?php echo $file->content[$index]->title; ?>" target="_blank">
-                                        <img src="/jlm2017/illustrations/<?php echo $file->content[$index]->img; ?>" alt="<?php echo $file->content[$index]->title; ?>" width="250" height="200" />
-                                        <h3><?php echo $file->content[$index]->title; ?></h3>
-                                        <p><?php echo $file->content[$index]->description; ?></p>
+                                <li<?php if ($index % 3 == 0): ?> class="break"<?php endif ?>>
+                                    <a href="<?= $file->content[$index]->url; ?>" title="<?= $file->content[$index]->title; ?>" target="_blank">
+                                        <img src="/jlm2017/illustrations/<?= $file->content[$index]->img; ?>" alt="<?= $file->content[$index]->title; ?>" width="250" height="200" />
+                                        <h3><?= $file->content[$index]->title; ?></h3>
+                                        <p><?= $file->content[$index]->description; ?></p>
                                     </a>
                                 </li>					
                                 <?php
@@ -93,11 +93,11 @@
                             // Pour chaque contenu
                             for ($index = 0; $index < $maximum; $index++) {
                                 ?>
-                                <li<?php if ($index % 3 == 0) { ?> class="break"<?php } ?>>
-                                    <a href="<?php echo $file->content[$index]->url; ?>" title="<?php echo $file->content[$index]->title; ?>" target="_blank">
-                                        <img src="/jlm2017/illustrations/<?php echo $file->content[$index]->img; ?>" alt="<?php echo $file->content[$index]->title; ?>" width="250" height="200" />
-                                        <h3><?php echo $file->content[$index]->title; ?></h3>
-                                        <p><?php echo $file->content[$index]->description; ?></p>
+                                <li<?php if ($index % 3 == 0): ?> class="break"<?php endif ?>>
+                                    <a href="<?= $file->content[$index]->url; ?>" title="<?= $file->content[$index]->title; ?>" target="_blank">
+                                        <img src="/jlm2017/illustrations/<?= $file->content[$index]->img; ?>" alt="<?= $file->content[$index]->title; ?>" width="250" height="200" />
+                                        <h3><?= $file->content[$index]->title; ?></h3>
+                                        <p><?= $file->content[$index]->description; ?></p>
                                     </a>
                                 </li>					
                                 <?php
@@ -132,11 +132,11 @@
                             // Pour chaque contenu
                             for ($index = 0; $index < $maximum; $index++) {
                                 ?>
-                                <li<?php if ($index % 3 == 0) { ?> class="break"<?php } ?>>
-                                    <a href="<?php echo $file->content[$index]->url; ?>" title="<?php echo $file->content[$index]->title; ?>" target="_blank">
-                                        <img src="/jlm2017/illustrations/<?php echo $file->content[$index]->img; ?>" alt="<?php echo $file->content[$index]->title; ?>" width="250" height="200" />
-                                        <h3><?php echo $file->content[$index]->title; ?></h3>
-                                        <p><?php echo $file->content[$index]->description; ?></p>
+                                <li<?php if ($index % 3 == 0): ?> class="break"<?php endif ?>>
+                                    <a href="<?= $file->content[$index]->url; ?>" title="<?= $file->content[$index]->title; ?>" target="_blank">
+                                        <img src="/jlm2017/illustrations/<?= $file->content[$index]->img; ?>" alt="<?= $file->content[$index]->title; ?>" width="250" height="200" />
+                                        <h3><?= $file->content[$index]->title; ?></h3>
+                                        <p><?= $file->content[$index]->description; ?></p>
                                     </a>
                                 </li>					
                                 <?php
@@ -171,11 +171,11 @@
                             // Pour chaque contenu
                             for ($index = 0; $index < $maximum; $index++) {
                                 ?>
-                                <li<?php if ($index % 3 == 0) { ?> class="break"<?php } ?>>
-                                    <a href="<?php echo $file->content[$index]->url; ?>" title="<?php echo $file->content[$index]->title; ?>" target="_blank">
-                                        <img src="/jlm2017/illustrations/<?php echo $file->content[$index]->img; ?>" alt="<?php echo $file->content[$index]->title; ?>" width="250" height="200" />
-                                        <h3><?php echo $file->content[$index]->title; ?></h3>
-                                        <p><?php echo $file->content[$index]->description; ?></p>
+                                <li<?php if ($index % 3 == 0): ?> class="break"<?php endif ?>>
+                                    <a href="<?= $file->content[$index]->url; ?>" title="<?= $file->content[$index]->title; ?>" target="_blank">
+                                        <img src="/jlm2017/illustrations/<?= $file->content[$index]->img; ?>" alt="<?= $file->content[$index]->title; ?>" width="250" height="200" />
+                                        <h3><?= $file->content[$index]->title; ?></h3>
+                                        <p><?= $file->content[$index]->description; ?></p>
                                     </a>
                                 </li>					
                                 <?php
@@ -210,11 +210,11 @@
                             // Pour chaque contenu
                             for ($index = 0; $index < $maximum; $index++) {
                                 ?>
-                                <li<?php if ($index % 3 == 0) { ?> class="break"<?php } ?>>
-                                    <a href="<?php echo $file->content[$index]->url; ?>" title="<?php echo $file->content[$index]->title; ?>" target="_blank">
-                                        <img src="/jlm2017/illustrations/<?php echo $file->content[$index]->img; ?>" alt="<?php echo $file->content[$index]->title; ?>" width="250" height="200" />
-                                        <h3><?php echo $file->content[$index]->title; ?></h3>
-                                        <p><?php echo $file->content[$index]->description; ?></p>
+                                <li<?php if ($index % 3 == 0): ?> class="break"<?php endif ?>>
+                                    <a href="<?= $file->content[$index]->url; ?>" title="<?= $file->content[$index]->title; ?>" target="_blank">
+                                        <img src="/jlm2017/illustrations/<?= $file->content[$index]->img; ?>" alt="<?= $file->content[$index]->title; ?>" width="250" height="200" />
+                                        <h3><?= $file->content[$index]->title; ?></h3>
+                                        <p><?= $file->content[$index]->description; ?></p>
                                     </a>
                                 </li>					
                                 <?php
@@ -231,7 +231,7 @@
             <hr />
             <?php
             // Integre le formulaire de contact, désactivé en attente d'un captcha
-//            include('includes/contact-form.php');
+//            include('contact/contact-form.php');
             ?>
         </div>
     </body>

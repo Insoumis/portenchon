@@ -19,7 +19,7 @@
             <hr />
             <?php
             // Integre la gestion du formulaire, désactivé en attente d'un captcha
-//            include('includes/contact-send.php');
+//            include('contact/contact-send.php');
             ?>
             <ul class="menu">
                 <li class="home"><a href="/jlm2017/" title="Accueil">Accueil</a></li>
@@ -72,7 +72,7 @@
             <hr />
             <?php
             // Integre le formulaire de contact, désactivé en attente d'un captcha
-//            include('includes/contact-form.php');
+//            include('contact/contact-form.php');
             ?>
         </div>
     </body>
