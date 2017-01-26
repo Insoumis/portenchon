@@ -12,7 +12,7 @@
             <hr />
             <?php
             // Integre la gestion du formulaire, désactivé en attente d'un captcha
-//            include('contact/contact-send.php');
+            include('contact/send.php');
             ?>
             <!-- ----------------------------- -->
             <!-- --  Inclusion du top menu  -- -->
@@ -67,7 +67,7 @@
             <hr />
             <?php
             // Integre le formulaire de contact, désactivé en attente d'un captcha
-//            include('contact/contact-form.php');
+            include('contact/form.php');
             ?>
         </div>
     </body>
