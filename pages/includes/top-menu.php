@@ -19,10 +19,7 @@
     <li class="others <?= isset($activeTab['others']) ? 'active' : null; ?>">
         <a href="<?= !isset($activeTab['others']) ? '/autres-ressources' : '#top'; ?>" title="Autres ressources">Autres ressources</a>
     </li>
-    <!-- Contact désactivé jusqu'à mise en place d'un captcha -->
-    <!--
-        <li class="contact <?php // echo isset($activeTab['contact']) ? $activeTab['contact'] : null; ?>">
-            <a href="#nous-contacter" title="Autres ressources">Nous contacter</a>
-        </li>
-    -->
+    <li class="contact <?= isset($activeTab['contact']) ? 'active' : null; ?>">
+        <a href="<?= !isset($activeTab['contact']) ? '#contact' : '#top'; ?>" title="Nous contacter">Nous contacter</a>
+    </li>
 </ul>
