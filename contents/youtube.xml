@@ -3,7 +3,7 @@
 	<content>
 		<title>La revue de la semaine</title>
 		<description>Série de vidéos dans laquelle Jean-Luc Mélenchon revient sur différents sujets de l'actualité.</description>
-		<url>https://www.youtube.com/playlist?list=PLnAm9o_Xn_3CzSZhVkM6dG2adkfyp8QZ</url>
+		<url>https://www.youtube.com/playlist?list=PLnAm9o_Xn_3CzSZhVkM6dG2adkfyp8QZ_</url>
 		<img>youtube-la-revue-de-la-semaine.jpg</img>
 	</content>
 	<content>
@@ -13,16 +13,16 @@
 		<img>youtube-discours-et-meetings.jpg</img>
 	</content>
 	<content>
-		<title>L'air de la campagne, par Usul</title>
-		<description>Usul décrypte tous les les quinze jours les clips, propagandes et musiques de la campagne électorale.</description>
-		<url>https://www.youtube.com/playlist?list=PL0H7ONNEUnnvUmAivTf_jcfc0KL6xTqM_</url>
-		<img>youtube-l-air-de-la-campagne.jpg</img>
-	</content>
-	<content>
 		<title>Mélenchon FAQ</title>
 		<description>Jean-Luc Mélenchon répond aux questions posées par les internautes avec le hashtag #MelenchonFAQ.</description>
 		<url>https://www.youtube.com/playlist?list=PLnAm9o_Xn_3C__izYBdYm6RN2wXyCXLoB</url>
 		<img>youtube-faq.jpg</img>
+	</content>
+	<content>
+		<title>L'air de la campagne, par Usul</title>
+		<description>Usul décrypte tous les les quinze jours les clips, propagandes et musiques de la campagne électorale.</description>
+		<url>https://www.youtube.com/playlist?list=PL0H7ONNEUnnvUmAivTf_jcfc0KL6xTqM_</url>
+		<img>youtube-l-air-de-la-campagne.jpg</img>
 	</content>
 	<content>
 		<title>François Ruffin</title>
