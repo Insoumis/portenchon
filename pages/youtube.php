@@ -14,7 +14,7 @@
             <hr />
             <?php
             // Integre la gestion du formulaire
-            include('contact/send.php');
+            require_once('contact/send.php');
             ?>
             <!-- ----------------------------- -->
             <!-- --  Inclusion du top menu  -- -->
@@ -43,7 +43,7 @@
             </div>
             <?php
             // Integre le formulaire de contact
-            include('contact/form.php');
+            require_once('contact/form.php');
             ?>
         </div>
         <li class="hidden js-modele-vignette"><a target="_blank" title=""><img width="250" height="200" alt="" src=""><h3></h3><p></p></a></li>

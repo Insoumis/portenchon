@@ -2,7 +2,7 @@
 <html>
     <head>
         <!-- Inclusion des headers communs -->
-        <?php require_once 'includes/common-headers.php'; ?>
+        <?php require_once 'require_onces/common-headers.php'; ?>
 
         <title>Portail insoumis</title>
         <script src="/javascript/index.js"></script>
@@ -13,7 +13,7 @@
             <h1>Portail insoumis</h1>
             <?php
             // Integre la gestion du formulaire, désactivé en attente d'un captcha
-            include('contact/send.php');
+            require_once('contact/send.php');
             ?>
             <!-- ----------------------------- -->
             <!-- --  Inclusion du top menu  -- -->
@@ -81,7 +81,7 @@
             </div>
             <?php
             // Integre le formulaire de contact, désactivé en attente d'un captcha
-            include('contact/form.php');
+            require_once('contact/form.php');
             ?>
         </div>
         <li class="hidden js-modele-vignette"><a target="_blank" title=""><img width="250" height="200" alt="" src=""><h3></h3><p></p></a></li>
