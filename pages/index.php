@@ -77,7 +77,7 @@
             <hr />
             <div class="content youtube">
                 <h2>YouTube</h2>
-                <p class="description">Chaînes officielles, de decryptage politique ou stimulant la réflexion, YouTube est devenu une plate-forme alternative aux médias traditionnels pour s'exprimer sur les sujets qui préocuppent réellement les citoyens.</p>
+                <p class="description">Chaînes officielles, de décryptage politique ou stimulant la réflexion, YouTube est devenu une plate-forme alternative aux médias traditionnels pour s'exprimer sur les sujets qui préoccupent réellement les citoyens.</p>
                 <div class="list">
                     <ul>
                         <?php
