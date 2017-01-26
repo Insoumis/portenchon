@@ -20,6 +20,6 @@
         <a href="<?= !isset($activeTab['others']) ? '/autres-ressources' : '#top'; ?>" title="Autres ressources">Autres ressources</a>
     </li>
     <li class="contact <?= isset($activeTab['contact']) ? 'active' : null; ?>">
-        <a href="<?= !isset($activeTab['contact']) ? '#contact' : '#top'; ?>" title="Nous contacter">Nous contacter</a>
+        <a href="<?= !isset($activeTab['contact']) ? '#nous-contacter' : '#top'; ?>" title="Nous contacter">Nous contacter</a>
     </li>
 </ul>
