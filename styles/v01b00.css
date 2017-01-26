@@ -12,6 +12,7 @@ img{display:block;border:0}
 p img{display:inline-block}
 ul{list-style-type:none}
 hr{border:0;height:0;margin:0;padding:0;clear:both}
+.hidden{display:none}
 /* ########################################################################## */
 
 .column{margin:0 auto;background:#FFF;color:#333;text-align:center;box-shadow:0 0 150px 0 rgba(0,0,0,0.5)}
@@ -46,6 +47,8 @@ hr{border:0;height:0;margin:0;padding:0;clear:both}
 .message.level_0{background:#093}
 .message.level_1{background:#C00}
 
+.content img.loader{width:100px;height:100px;margin:auto;margin-top:135px}
+
 
 h1{height:30px;font-size:0.5em}
 .header{height:360px}
@@ -59,7 +62,9 @@ h1{height:30px;font-size:0.5em}
 
 h2{padding:20px 8% 0;font-size:2.5em}
 .description{margin:20px 8% 0;padding:0 4%;border-left:1px solid #666;border-right:1px solid #666;font-size:1.2em}
-.list{width:250px;margin:0 auto}
+.list{width:250px;margin:0 auto;min-height: 370px;}
+.error{margin-top:50px;}
+.message-erreur{font-size:1.6em;padding:10px;background-color:#FFDCDC;border:1px solid #FFBBBB;}
 .content li{display:block;margin:20px 0 0 0;width:250px;text-align:left;float:left}
 .content li a{display:block;color:#666}
 .content li a:hover{color:#333}
