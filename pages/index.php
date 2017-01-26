@@ -21,15 +21,17 @@
             // Integre la gestion du formulaire, désactivé en attente d'un captcha
 //            include('contact/contact-send.php');
             ?>
-            <ul class="menu">
-                <li class="home active"><a href="#top" title="Accueil">Accueil</a></li>
-                <li class="websites"><a href="/sites-internet" title="Sites Internet">Sites Internet</a></li>
-                <li class="youtube"><a href="/youtube" title="YouTube">YouTube</a></li>
-                <li class="twitter"><a href="/twitter" title="Twitter">Twitter</a></li>
-                <li class="facebook"><a href="/facebook" title="Facebook">Facebook</a></li>
-                <li class="others"><a href="/autres-ressources" title="Autres ressources">Autres ressources</a></li>
-                <!--<li class="contact"><a href="#nous-contacter" title="Nous contacter">Nous contacter</a></li>-->
-            </ul>
+            <!-- ----------------------------- -->
+            <!-- --  Inclusion du top menu  -- -->
+            <!-- ----------------------------- -->
+            <?php
+            $activeTab = [];
+            $activeTab['home'] = true;
+            require_once 'includes/top-menu.php';
+            ?>
+            <!-- ----------------------------- -->
+            <!-- ---  Contenu de la page  ---- -->
+            <!-- ----------------------------- -->
             <div class="header home">
                 <div class="fi"></div>
             </div>
