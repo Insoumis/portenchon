@@ -7,12 +7,12 @@ $(document).ready(function() {
         method: "GET",
         url: "/ajax/get-vignettes",
         data: {
-            categorie: "facebook",
+            categorie: "twitter",
         },
         dataType: "json",
     })
     .done(function(data) {
-        var container = $('.js-facebook');
+        var container = $('.js-twitter');
         container.html('');
         if (data.resultat === 'error') {
             afficherMessageErreur(container, data.message);

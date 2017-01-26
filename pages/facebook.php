@@ -32,7 +32,7 @@
             <div class="content">
                 <h2>Facebook</h2>
                 <p class="description">Abonnez-vous aux comptes Facebook des personnalités liées au programme de la France Insoumise ou aux pages administrées par des collectifs indépendants d'insoumis.</p>
-                <div class="list js-youtube">
+                <div class="list js-facebook">
                     <img class="loader" src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Gray_circles_rotate.gif"/>
                 </div>
                 <hr />
