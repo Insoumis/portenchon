@@ -17,7 +17,7 @@ $contact_securite_2=0;
 $contact_securite='';
 $contact_e_mail='';
 $contact_message='';
-$contact_form='/jlm2017/nous-contacter/';
+$contact_form='/nous-contacter';
 // Si il y a un envoi de formulaire
 if(isset($_POST['send_e_mail'])){
 	// Recupere les valeurs envoyees
