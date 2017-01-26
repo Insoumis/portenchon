@@ -38,7 +38,7 @@
             <hr />
             <div class="content websites">
                 <h2>Sites Internet</h2>
-                <p class="description">Retrouvez quelques sites, officiels ou non, sur le mouvement de la France Insoumise ou sur la politique en général. Ce sont les ressources idéales pour prendre connaissance du programme l'Avenir en Commun et de son positionnement.</p>
+                <p class="description">Retrouvez quelques sites, officiels ou non, sur le mouvement de la France Insoumise ou sur la politique en général. Ce sont des ressources idéales pour prendre connaissance du programme l'Avenir en Commun et de son positionnement.</p>
                 <div class="list">
                     <ul>
                         <?php
@@ -71,7 +71,7 @@
                     <hr />
                 </div>
                 <div class="end">
-                    <p><a href="/sites-internet/" title="Découvrir plus de sites">Découvrir plus de sites</a></p>
+                    <p><a href="/sites-internet" title="Découvrir plus de sites">Découvrir plus de sites</a></p>
                 </div>
             </div>
             <hr />
@@ -110,7 +110,7 @@
                     <hr />
                 </div>
                 <div class="end">
-                    <p><a href="/youtube/" title="Découvrir plus de chaînes">Découvrir plus de chaînes</a></p>
+                    <p><a href="/youtube" title="Découvrir plus de chaînes">Découvrir plus de chaînes</a></p>
                 </div>
             </div>
             <hr />
@@ -149,7 +149,7 @@
                     <hr />
                 </div>
                 <div class="end">
-                    <p><a href="/twitter/" title="Découvrir plus de comptes Twitter">Découvrir plus de comptes Twitter</a></p>
+                    <p><a href="/twitter" title="Découvrir plus de comptes Twitter">Découvrir plus de comptes Twitter</a></p>
                 </div>
             </div>
             <hr />
@@ -188,7 +188,7 @@
                     <hr />
                 </div>
                 <div class="end">
-                    <p><a href="/facebook/" title="Découvrir plus de pages Facebook">Découvrir plus de pages Facebook</a></p>
+                    <p><a href="/facebook" title="Découvrir plus de pages Facebook">Découvrir plus de pages Facebook</a></p>
                 </div>
             </div>
             <hr />
@@ -227,7 +227,7 @@
                     <hr />
                 </div>
                 <div class="end">
-                    <p><a href="/autres-ressources/" title="Découvrir plus de ressources">Découvrir plus de ressources</a></p>
+                    <p><a href="/autres-ressources" title="Découvrir plus de ressources">Découvrir plus de ressources</a></p>
                 </div>
             </div>
             <hr />
