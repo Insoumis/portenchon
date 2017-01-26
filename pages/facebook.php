@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Facebook insoumis - Portail insoumis</title>
         <!-- Inclusion des headers communs -->
         <?php require_once 'includes/common-headers.php'; ?>
+        
+        <title>Facebook insoumis - Portail insoumis</title>
+        <script src="/javascript/facebook.js"></script>
     </head>
     <body>
         <div class="column">
             <a name="top"></a>
             <h1>Facebook insoumis</h1>
-            <hr />
             <?php
-            // Integre la gestion du formulaire, désactivé en attente d'un captcha
-            include('contact/send.php');
+            // Integre la gestion du formulaire
+            require_once('contact/send.php');
             ?>
             <!-- ----------------------------- -->
             <!-- --  Inclusion du top menu  -- -->
@@ -28,47 +29,22 @@
             <div class="header facebook">
                 <div class="fi"></div>
             </div>
-            <hr />
             <div class="content">
                 <h2>Facebook</h2>
                 <p class="description">Abonnez-vous aux comptes Facebook des personnalités liées au programme de la France Insoumise ou aux pages administrées par des collectifs indépendants d'insoumis.</p>
-                <div class="list">
-                    <ul>
-                        <?php
-// Initialise les contenus a afficher
-                        $file = '../contents/facebook.xml';
-// Si le fichier existe
-                        if (file_exists($file)) {
-                            // Charge le fichier
-                            $file = simplexml_load_file($file);
-                            // Compte les contenus
-                            $contents = count($file->content);
-                            // Pour chaque contenu
-                            for ($index = 0; $index < $contents; $index++) {
-                                ?>
-                                <li<?php if ($index % 3 == 0) { ?> class="break"<?php } ?>>
-                                    <a href="<?php echo $file->content[$index]->url; ?>" title="<?php echo $file->content[$index]->title; ?>" target="_blank">
-                                        <img src="/images/<?php echo $file->content[$index]->img; ?>" alt="<?php echo $file->content[$index]->title; ?>" width="250" height="200" />
-                                        <h3><?php echo $file->content[$index]->title; ?></h3>
-                                        <p><?php echo $file->content[$index]->description; ?></p>
-                                    </a>
-                                </li>					
-                                <?php
-                            }
-                        }
-                        ?>
-                    </ul>
-                    <hr />
+                <div class="list js-youtube">
+                    <img class="loader" src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Gray_circles_rotate.gif"/>
                 </div>
+                <hr />
                 <div class="end">
                     <p><a href="/" title="Revenir à l'accueil">Revenir à l'accueil</a></p>
                 </div>
             </div>
-            <hr />
             <?php
-            // Integre le formulaire de contact, désactivé en attente d'un captcha
-            include('contact/form.php');
+            // Integre le formulaire de contact
+            require_once('contact/form.php');
             ?>
         </div>
+        <li class="hidden js-modele-vignette"><a target="_blank" title=""><img width="250" height="200" alt="" src=""><h3></h3><p></p></a></li>
     </body>
 </html>

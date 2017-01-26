@@ -38,7 +38,6 @@ $(document).ready(function() {
         dataType: "json",
     })
     .done(function(data) {
-        console.debug(data);
         var container = $('.js-youtube');
         container.html('');
         if (data.resultat === 'error') {

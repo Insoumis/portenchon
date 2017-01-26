@@ -7,7 +7,7 @@ $(document).ready(function() {
         method: "GET",
         url: "/ajax/get-vignettes",
         data: {
-            categorie: "youtube",
+            categorie: "facebook",
         },
         dataType: "json",
     })
