@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Ressources insoumises - Portail insoumis</title>
         <!-- Inclusion des headers communs -->
         <?php require_once 'includes/common-headers.php'; ?>
+        
+        <title>Ressources insoumises - Portail insoumis</title>
+        <script src="/javascript/others.js"></script>
     </head>
     <body>
         <div class="column">
             <a name="top"></a>
             <h1>Ressources insoumises</h1>
-            <hr />
             <?php
             // Integre la gestion du formulaire, désactivé en attente d'un captcha
             require_once('contact/send.php');
@@ -28,47 +29,22 @@
             <div class="header others">
                 <div class="fi"></div>
             </div>
-            <hr />
             <div class="content">
                 <h2>Autres ressources</h2>
                 <p class="description">Retrouvez-ici d'autres plates-formes spécifiques, mais aussi des contenus particuliers qui vont dans le sens du programme l'Avenir en Commun de la France Insoumise.</p>
-                <div class="list">
-                    <ul>
-                        <?php
-// Initialise les contenus a afficher
-                        $file = '../contents/others.xml';
-// Si le fichier existe
-                        if (file_exists($file)) {
-                            // Charge le fichier
-                            $file = simplexml_load_file($file);
-                            // Compte les contenus
-                            $contents = count($file->content);
-                            // Pour chaque contenu
-                            for ($index = 0; $index < $contents; $index++) {
-                                ?>
-                                <li<?php if ($index % 3 == 0) { ?> class="break"<?php } ?>>
-                                    <a href="<?php echo $file->content[$index]->url; ?>" title="<?php echo $file->content[$index]->title; ?>" target="_blank">
-                                        <img src="/images/<?php echo $file->content[$index]->img; ?>" alt="<?php echo $file->content[$index]->title; ?>" width="250" height="200" />
-                                        <h3><?php echo $file->content[$index]->title; ?></h3>
-                                        <p><?php echo $file->content[$index]->description; ?></p>
-                                    </a>
-                                </li>					
-                                <?php
-                            }
-                        }
-                        ?>
-                    </ul>
-                    <hr />
+                <div class="list js-others">
+                    <img class="loader" src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Gray_circles_rotate.gif"/>
                 </div>
+                <hr />
                 <div class="end">
                     <p><a href="/" title="Revenir à l'accueil">Revenir à l'accueil</a></p>
                 </div>
             </div>
-            <hr />
             <?php
             // Integre le formulaire de contact, désactivé en attente d'un captcha
             require_once('contact/form.php');
             ?>
         </div>
+        <li class="hidden js-modele-vignette"><a target="_blank" title=""><img class="vignette" width="250" height="200" alt="" src=""><h3></h3><p></p></a></li>
     </body>
 </html> 

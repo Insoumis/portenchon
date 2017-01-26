@@ -68,7 +68,7 @@ h2{padding:20px 8% 0;font-size:2.5em}
 .content li{display:block;margin:20px 0 0 0;width:250px;text-align:left;float:left}
 .content li a{display:block;color:#666}
 .content li a:hover{color:#333}
-.content li img{box-shadow:0 0 40px 0 rgba(0,0,0,0.3)}
+.content li img.vignette{box-shadow:0 0 40px 0 rgba(0,0,0,0.3)}
 .content li h3{padding:10px 0 0;font-size:1.2em;font-weight:bold}
 .content li p{padding:10px 0 0;font-size:1.2em}
 .end{padding:120px 0 60px;background:url("../elements/sprite.png") center -60px no-repeat}
@@ -126,7 +126,7 @@ h2{padding:40px 8% 0;font-size:3em}
 	
 .list{width:auto;margin:0 6%;padding:20px 0}
 .content li{width:29%;padding:20px 2.15% 0;margin:0}	
-.content img{width:100%;height:100%;min-height:200px;}		
+.content img.vignette{width:100%;height:100%;min-height:200px;}		
 .break{clear:both}
 	
 .description{margin:40px 8% 0;padding:0 4%;}

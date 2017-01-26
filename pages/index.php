@@ -84,6 +84,6 @@
             require_once('contact/form.php');
             ?>
         </div>
-        <li class="hidden js-modele-vignette"><a target="_blank" title=""><img width="250" height="200" alt="" src=""><h3></h3><p></p></a></li>
+        <li class="hidden js-modele-vignette"><a target="_blank" title=""><img class="vignette" width="250" height="200" alt="" src=""><h3></h3><p></p></a></li>
     </body>
 </html> 
