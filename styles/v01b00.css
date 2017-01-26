@@ -1,9 +1,9 @@
 /* Reset #################################################################### */
 html{height:100%;font-size:100%;}
-body{font-family:'Montserrat',Verdana,Arial,Helvetica,sans-serif;font-size:0.6em;margin:0;padding:0;height:100%;text-align:left;cursor:default;background:#333;color:#FFF}
+body{font-family:Verdana,Arial,Helvetica,sans-serif;font-size:0.6em;margin:0;padding:0;height:100%;text-align:left;cursor:default;background:#333;color:#FFF}
 h1,h2,h3,p,ul,form{margin:0;padding:0;font-weight:normal}
 input{margin:0;padding:0;-webkit-appearance:none;border-radius:0}
-textarea{margin:0;resize:none;font-family:'Montserrat',Verdana,Arial,Helvetica,sans-serif;-webkit-appearance:none;border-radius:0;}
+textarea{margin:0;resize:none;font-family:Verdana,Arial,Helvetica,sans-serif;-webkit-appearance:none;border-radius:0;}
 label,button{cursor:pointer}
 a{word-wrap:break-word}
 a:link,a:visited,a:hover,a:active{text-decoration:none;cursor:pointer}
@@ -54,7 +54,7 @@ h1{height:30px;font-size:0.5em}
 .fi{height:360px;background:url("../elements/fi.png") center bottom no-repeat}
 
 h2{padding:20px 8% 0;font-size:2.5em}
-.description{margin:20px 8% 0;padding:0 4%;border-left:1px solid #666;border-right:1px solid #666;font-size:1.5em}
+.description{margin:20px 8% 0;padding:0 4%;border-left:1px solid #666;border-right:1px solid #666;font-size:1.2em}
 .list{width:250px;margin:0 auto}
 .content li{display:block;margin:20px 0 0 0;width:250px;text-align:left;float:left}
 .content li a{display:block;color:#666}
@@ -123,7 +123,7 @@ h2{padding:40px 8% 0;font-size:3em}
 .description{margin:40px 8% 0;padding:0 4%;}
 .content li h3,
 .content li p,
-.end a{font-size:1.1em}
+.end a{font-size:0.9em}
 form p{font-size:1.2em;padding-top:40px}
 .button{margin-top:40px}
 }
