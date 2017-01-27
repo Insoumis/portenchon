@@ -2,7 +2,7 @@
 <html>
     <head>
         <!-- Inclusion des headers communs -->
-        <?php require_once 'require_onces/common-headers.php'; ?>
+        <?php require_once 'includes/common-headers.php'; ?>
 
         <title>Portail insoumis</title>
         <script src="/javascript/index.js"></script>
@@ -33,7 +33,7 @@
                 <h2>Sites Internet</h2>
                 <p class="description">Retrouvez quelques sites, officiels ou non, sur le mouvement de la France Insoumise ou sur la politique en général. Ce sont des ressources idéales pour prendre connaissance du programme l'Avenir en Commun et de son positionnement.</p>
                 <div class="list js-sites">                 
-                    <img class="loader" src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Gray_circles_rotate.gif"/>
+                    <img class="loader" src="/elements/loading.gif"/>
                 </div>
                 <div class="end">
                     <p><a href="/sites-internet" title="Découvrir plus de sites">Découvrir plus de sites</a></p>
@@ -43,7 +43,7 @@
                 <h2>YouTube</h2>
                 <p class="description">Chaînes officielles, de décryptage politique ou stimulant la réflexion, YouTube est devenu une plate-forme alternative aux médias traditionnels pour s'exprimer sur les sujets qui préoccupent réellement les citoyens.</p>
                 <div class="list js-youtube">
-                    <img class="loader" src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Gray_circles_rotate.gif"/>
+                    <img class="loader" src="/elements/loading.gif"/>
                 </div>
                 <div class="end">
                     <p><a href="/youtube" title="Découvrir plus de chaînes">Découvrir plus de chaînes</a></p>
@@ -53,7 +53,7 @@
                 <h2>Twitter</h2>
                 <p class="description">Suivez les comptes Twitter des personnalités liées au programme de la France Insoumise ou d'initiatives de collectifs indépendants d'insoumis.</p>
                 <div class="list js-twitter">
-                    <img class="loader" src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Gray_circles_rotate.gif"/>
+                    <img class="loader" src="/elements/loading.gif"/>
                 </div>
                 <div class="end">
                     <p><a href="/twitter" title="Découvrir plus de comptes Twitter">Découvrir plus de comptes Twitter</a></p>
@@ -63,7 +63,7 @@
                 <h2>Facebook</h2>
                 <p class="description">Abonnez-vous aux comptes Facebook des personnalités liées au programme de la France Insoumise ou aux pages administrées par des collectifs indépendants d'insoumis.</p>
                 <div class="list js-facebook">
-                    <img class="loader" src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Gray_circles_rotate.gif"/>
+                    <img class="loader" src="/elements/loading.gif"/>
                 </div>
                 <div class="end">
                     <p><a href="/facebook" title="Découvrir plus de pages Facebook">Découvrir plus de pages Facebook</a></p>
