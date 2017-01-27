@@ -35,7 +35,7 @@
                 <h2>Sites Internet</h2>
                 <p class="description">Retrouvez quelques sites, officiels ou non, sur le mouvement de la France Insoumise ou sur la politique en général. Ce sont les ressources idéales pour prendre connaissance du programme l'Avenir en Commun et de son positionnement.</p>
                 <div class="list js-sites">
-                    <img class="loader" src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Gray_circles_rotate.gif"/>
+                    <img class="loader" src="/elements/loading.gif"/>
                 </div>
                 <hr />
                 <div class="end">

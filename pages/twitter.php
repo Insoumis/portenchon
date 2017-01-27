@@ -33,7 +33,7 @@
                 <h2>Twitter</h2>
                 <p class="description">Suivez les comptes Twitter des personnalités liées au programme de la France Insoumise ou d'initiatives de collectifs indépendants d'insoumis.</p>
                 <div class="list js-twitter">
-                    <img class="loader" src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Gray_circles_rotate.gif"/>
+                    <img class="loader" src="/elements/loading.gif"/>
                 </div>
                 <hr />
                 <div class="end">

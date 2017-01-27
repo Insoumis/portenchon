@@ -34,7 +34,7 @@
                 <h2>YouTube</h2>
                 <p class="description">Chaînes officielles, de décryptage politique ou stimulant la réflexion, YouTube est devenu une plate-forme alternative aux médias traditionnels pour s'exprimer sur les sujets qui préocuppent réellement les citoyens.</p>
                 <div class="list js-youtube">
-                    <img class="loader" src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Gray_circles_rotate.gif"/>
+                    <img class="loader" src="/elements/loading.gif"/>
                 </div>
                 <hr />
                 <div class="end">

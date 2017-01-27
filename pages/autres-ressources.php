@@ -33,7 +33,7 @@
                 <h2>Autres ressources</h2>
                 <p class="description">Retrouvez-ici d'autres plates-formes spécifiques, mais aussi des contenus particuliers qui vont dans le sens du programme l'Avenir en Commun de la France Insoumise.</p>
                 <div class="list js-others">
-                    <img class="loader" src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Gray_circles_rotate.gif"/>
+                    <img class="loader" src="/elements/loading.gif"/>
                 </div>
                 <hr />
                 <div class="end">
