@@ -37,7 +37,6 @@ if(isset($_POST['send_e_mail'])){
 	// Sinon
 	}else{
 		// Remplace les variables
-		$e_mail="franceinsoumise@roomantic.fr";
 		$sender=($contact_e_mail) ? $contact_e_mail : $e_mail;
 		$subject=($sender) ? 'Contribution Portail' : 'Contribution Portail : '.$sender;
 		// Genere une frontiere pour separer les contenus texte et HTML
