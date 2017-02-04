@@ -31,7 +31,7 @@
             </div>
             <div class="content websites">
                 <h2>Sites Internet</h2>
-                <p class="description">Retrouvez quelques sites, officiels ou non, sur le mouvement de la France Insoumise ou sur la politique en général. Ce sont des ressources idéales pour prendre connaissance du programme l'Avenir en Commun et de son positionnement.</p>
+                <p class="description">Retrouvez quelques sites, officiels ou non, sur le mouvement de la France Insoumise ou sur la politique en général. Ce sont les ressources idéales pour prendre connaissance du programme l'Avenir en Commun et de son positionnement.</p>
                 <div class="list">
                     <ul>
                         <?php
