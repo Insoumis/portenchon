@@ -50,7 +50,7 @@
                                 ?>
                                 <li<?php if ($index % 3 == 0) { ?> class="break"<?php } ?>>
                                     <a href="<?php echo $file->content[$index]->url; ?>" title="<?php echo $file->content[$index]->title; ?>" target="_blank">
-                                        <img src="<?php echo $root; ?>illustrations/<?php echo $file->content[$index]->img; ?>" alt="<?php echo $file->content[$index]->title; ?>" width="250" height="200" />
+                                        <img src="<?php echo $root.$illustrations; ?>/<?php echo $file->content[$index]->img; ?>" alt="<?php echo $file->content[$index]->title; ?>" width="250" height="200" />
                                         <h3><?php echo $file->content[$index]->title; ?></h3>
                                         <p><?php echo $file->content[$index]->description; ?></p>
                                     </a>
