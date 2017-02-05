@@ -8,3 +8,7 @@
 <meta name="application-name" content="Portail insoumis">
 <meta charset="utf-8" />
 <link rel="manifest" href="<?php echo $root; ?>includes/manifest.json">
+<meta property="og:title" content="Portail insoumis" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://insoumis.online<?php echo $_SERVER['REQUEST_URI']; ?>" />
+<meta property="og:image" content="http://insoumis.online<?php echo $root; ?>elements/open-graph.jpg" />
