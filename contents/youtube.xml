@@ -13,16 +13,16 @@
 		<img>youtube-discours-et-meetings.jpg</img>
 	</content>
 	<content>
-		<title>L'air de la campagne, par Usul</title>
-		<description>Usul décrypte tous les les quinze jours les clips, propagandes et musiques de la campagne électorale.</description>
-		<url>https://www.youtube.com/playlist?list=PL0H7ONNEUnnvUmAivTf_jcfc0KL6xTqM_</url>
-		<img>youtube-l-air-de-la-campagne.jpg</img>
-	</content>
-	<content>
 		<title>Mélenchon FAQ</title>
 		<description>Jean-Luc Mélenchon répond aux questions posées par les internautes avec le hashtag #MelenchonFAQ.</description>
 		<url>https://www.youtube.com/playlist?list=PLnAm9o_Xn_3C__izYBdYm6RN2wXyCXLoB</url>
 		<img>youtube-faq.jpg</img>
+	</content>
+	<content>
+		<title>L'air de la campagne, par Usul</title>
+		<description>Usul décrypte tous les les quinze jours les clips, propagandes et musiques de la campagne électorale.</description>
+		<url>https://www.youtube.com/playlist?list=PL0H7ONNEUnnvUmAivTf_jcfc0KL6xTqM_</url>
+		<img>youtube-l-air-de-la-campagne.jpg</img>
 	</content>
 	<content>
 		<title>François Ruffin</title>
@@ -31,22 +31,16 @@
 		<img>youtube-francois-ruffin.jpg</img>
 	</content>
 	<content>
-		<title>Esprit de campagne</title>
-		<description>Emission sur le déroulement de la campagne de Jean-Luc Mélenchon.</description>
-		<url>https://www.youtube.com/playlist?list=PLnAm9o_Xn_3CFeesH6PnFXAi9CzDkayoj</url>
-		<img>youtube-esprit-de-campagne.jpg</img>
+		<title>ABCDaire France Insoumise</title>
+		<description>Chaîne regroupant des vidéos de Jean-Luc Mélenchon classées par thèmes, puis par mots clef.</description>
+		<url>https://www.youtube.com/channel/UCNxsrQfe8cQAVFj7sk5DY0w</url>
+		<img>youtube-abecedaire-insoumis.jpg</img>
 	</content>
 	<content>
-		<title>C Pas Politique</title>
-		<description>Chaque semaine une nouvelle playlist. Personnalité actuelle représentée : Jean Luc Melenchon pour son progressisme implacable.</description>
-		<url>https://www.youtube.com/channel/UCp2x9ucPb5ROhSnwj_R6boQ</url>
-		<img>youtube-c-pas-politique.jpg</img>
-	</content>
-	<content>
-		<title>Pas vu à la télé</title>
-		<description>Emission dans laquelle Jean-Luc Mélenchon donne la parole à un intervenant qui n'a pas de visibilité dans les médias traditionnels.</description>
-		<url>https://www.youtube.com/playlist?list=PLnAm9o_Xn_3DUmfInNaOtSwL6P1fyVdEq</url>
-		<img>youtube-pas-vu-a-la-tele.jpg</img>
+		<title>2017 - Moi je vote</title>
+		<description>Chaîne regroupant des vidéos de Jean-Luc Mélenchon en fonction de thématiques précises.</description>
+		<url>https://www.youtube.com/channel/UCTKqPq3s0Ae5RTdj_YJ_ggw</url>
+		<img>youtube-2017-moi-je-vote.jpg</img>
 	</content>
 	<content>
 		<title>El Sueño</title>
@@ -55,10 +49,64 @@
 		<img>youtube-el-sueno.jpg</img>
 	</content>
 	<content>
+		<title>C Pas Politique</title>
+		<description>Chaque semaine une nouvelle playlist. Personnalité actuelle représentée : Jean Luc Melenchon pour son progressisme implacable.</description>
+		<url>https://www.youtube.com/channel/UCp2x9ucPb5ROhSnwj_R6boQ</url>
+		<img>youtube-c-pas-politique.jpg</img>
+	</content>
+	<content>
+		<title>Can't Stenchon The Melenchon !</title>
+		<description>Chaîne YouTube humoristique de clips sur les phrases choc de Jean-Luc Mélenchon.</description>
+		<url>https://www.youtube.com/channel/UCXf_eMJS9wfPFRXOMjDRQdQ</url>
+		<img>youtube-can-t-stenchon-the-melenchon.jpg</img>
+	</content>
+	<content>
+		<title>Esprit de campagne</title>
+		<description>Emission sur le déroulement de la campagne de Jean-Luc Mélenchon.</description>
+		<url>https://www.youtube.com/playlist?list=PLnAm9o_Xn_3CFeesH6PnFXAi9CzDkayoj</url>
+		<img>youtube-esprit-de-campagne.jpg</img>
+	</content>
+	<content>
+		<title>Pas vu à la télé</title>
+		<description>Emission dans laquelle Jean-Luc Mélenchon donne la parole à un intervenant qui n'a pas de visibilité dans les médias traditionnels.</description>
+		<url>https://www.youtube.com/playlist?list=PLnAm9o_Xn_3DUmfInNaOtSwL6P1fyVdEq</url>
+		<img>youtube-pas-vu-a-la-tele.jpg</img>
+	</content>
+	<content>
+		<title>Thomas Gaëtan</title>
+		<description>Chanteur et guitariste qui nous propose ses propres arrangements pour nous faire vibrer au son de la France Insoumise.</description>
+		<url>https://www.youtube.com/channel/UCMXro1kMPdFohuQ3rDU06kg</url>
+		<img>youtube-thomas-gaetan.jpg</img>
+	</content>
+	<content>
+		<title>JLM Zap</title>
+		<description>Zapping des interventions de Jean-Luc Mélenchon.</description>
+		<url>https://www.youtube.com/channel/UCGXZ7p3wa5fLvXdVD9OLIwg</url>
+		<img>youtube-jlm-zap.jpg</img>
+	</content>
+	<content>
 		<title>Accropolis</title>
 		<description>Inspirée des plateformes de streaming de jeux vidéo, Accropolis commente et analyse l'actualité politique en direct.</description>
 		<url>https://www.youtube.com/channel/UCqv_wXmLSFtTDA39HQaLssQ</url>
 		<img>youtube-accropolis.jpg</img>
+	</content>
+	<content>
+		<title>Le petit carnet</title>
+		<description>Dans une série de vidéos, Romain nous explique comment militer par des petites choses très simples que chacun·e d'entre nous peut faire.</description>
+		<url>https://www.youtube.com/playlist?list=PL49hPUZTPboUvRCFbYNh-4jnbgR4uOnx9</url>
+		<img>youtube-le-petit-carnet.jpg</img>
+	</content>
+	<content>
+		<title>Danielle Simonnet</title>
+		<description>Chaîne officielle de la coordinatrice du Parti de Gauche.</description>
+		<url>https://www.youtube.com/channel/UC1isEuz-3EJ_U8soaUi00HA</url>
+		<img>youtube-danielle-simonnet.jpg</img>
+	</content>
+	<content>
+		<title>Auditions Programmatiques</title>
+		<description>Retrouvez la seconde phase de la construction du programme issue d'auditions conçues autour d'échanges avec des personnalités issues d'horizons divers.</description>
+		<url>https://www.youtube.com/playlist?list=PL49hPUZTPboUlcm-7_uPeWjbkGSkkEEVd</url>
+		<img>youtube-auditions-programmatiques.jpg</img>
 	</content>
 	<content>
 		<title>Mission Insoumission</title>
